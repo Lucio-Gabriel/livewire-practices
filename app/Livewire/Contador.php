@@ -7,7 +7,7 @@ use Livewire\Component;
 class Contador extends Component
 {
 
-    public string $name = 'Gabriel';
+    public ?string $name = 'Gabriel';
 
     public function render()
     {
@@ -17,8 +17,6 @@ class Contador extends Component
     public function getDadosProperty(){
 
         return  'profissao: Desenvolvedor Back-End';
-
-
 
     }
 }

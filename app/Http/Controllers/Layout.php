@@ -12,5 +12,10 @@ class Layout extends Controller
         return view('layout.home');
     }
 
-    
+    public function create()
+    {
+        return view('create_user');
+    }
+
+
 }
