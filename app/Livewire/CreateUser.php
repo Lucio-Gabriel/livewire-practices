@@ -21,4 +21,11 @@ class CreateUser extends Component
             'name' => $this->name
         ]);
     }
+
+    // emitindo a msg para uma classe
+    public function send()
+    {
+        $this->emitTo(Todo::class, 'mudaai', $this->name);
+    }
+
 }

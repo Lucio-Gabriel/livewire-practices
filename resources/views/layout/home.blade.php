@@ -10,6 +10,8 @@
 </head>
 <body class="bg-blue-600">
 
+    <x-nav>
+    </x-nav>
 
        <h1 class="flex items-center justify-center font-medium font-sans text-white text-3xl pt-56">Nossos Projetos de Livewire Ficaram aqui abaixo</h1>
 

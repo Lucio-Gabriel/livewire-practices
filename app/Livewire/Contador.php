@@ -14,7 +14,8 @@ class Contador extends Component
         return view('livewire.contador');
     }
 
-    public function getDadosProperty(){
+    public function getDadosProperty()
+    {
 
         return  'profissao: Desenvolvedor Back-End';
 
