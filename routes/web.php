@@ -8,4 +8,4 @@ Route::get('/', [Layout::class, 'index'])->name('home.page');
 
 Route::get('/create', [Layout::class, 'create'])->name('create.user');
 
-// Route::get('/contador', [Layout::class, 'contador']);
+Route::get('/list', [Layout::class, 'list'])->name('list.user');

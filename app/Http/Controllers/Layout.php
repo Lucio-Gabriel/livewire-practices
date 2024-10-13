@@ -17,5 +17,9 @@ class Layout extends Controller
         return view('create_user');
     }
 
+    public function list()
+    {
+        return view('list_users');
+    }
 
 }
