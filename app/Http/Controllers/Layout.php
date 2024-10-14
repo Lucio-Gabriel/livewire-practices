@@ -22,4 +22,8 @@ class Layout extends Controller
         return view('list_users');
     }
 
+    public function drivers()
+    {
+        return view('lists_drivers');
+    }
 }

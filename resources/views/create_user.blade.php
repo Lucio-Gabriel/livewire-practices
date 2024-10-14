@@ -23,7 +23,7 @@
 
             <div class="bg-slate-800 overflow-hidden shadow-sm sm:rounded-lg mt-4">
                 <div class="p-6 text-gray-900">
-
+                    
                     <livewire:todo />
                 </div>
             </div>

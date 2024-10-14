@@ -21,6 +21,9 @@
         <livewire:contador />
 
     </div>
+
+    <a href="{{ route('list.drivers') }}"> Lista de motoristas </a>
+
     </div>
 
 </body>

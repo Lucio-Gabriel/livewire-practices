@@ -19,6 +19,4 @@ class ListaDeUsuarios extends Component
         ]);
     }
 
-
-
 }
