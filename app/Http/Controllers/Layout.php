@@ -26,4 +26,9 @@ class Layout extends Controller
     {
         return view('lists_drivers');
     }
+
+    public function user()
+    {
+        return view('create-form-user');
+    }
 }

@@ -24,6 +24,8 @@
 
     <a href="{{ route('list.drivers') }}"> Lista de motoristas </a>
 
+    <a href="{{ route('create.form.user') }}"> Cadastra Usuarios </a>
+
     </div>
 
 </body>
